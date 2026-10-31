@@ -1,0 +1,25 @@
+{
+  "model": "Random Forest",
+  "accuracy": 0.6625,
+  "precision": 0.4286,
+  "recall": 0.2727,
+  "f1": 0.3333,
+  "roc_auc": 0.6119,
+  "cv_roc_auc_mean": 0.5756,
+  "train_rows": 1280,
+  "test_rows": 320,
+  "total_rows": 1600,
+  "features": [
+    "member_tenure_months",
+    "previous_loans",
+    "previous_late_returns",
+    "current_loans",
+    "book_popularity",
+    "loan_duration_days",
+    "member_type",
+    "genre"
+  ],
+  "target": "overdue",
+  "random_state": 42,
+  "dataset_note": "Synthetic academic dataset; replace with anonymised real library history for final empirical claims."
+}

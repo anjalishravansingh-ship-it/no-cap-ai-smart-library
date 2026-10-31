@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nocap-ai-library
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
